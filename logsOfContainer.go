@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/JinHyukParkk/moby/api/types"
+	"github.com/JinHyukParkk/moby/client"
 	"golang.org/x/net/context"
 )
 
