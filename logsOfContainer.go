@@ -18,7 +18,7 @@ func main() {
 
 	options := types.ContainerLogsOptions{ShowStdout: true}
 	// Replace this ID with a container that really exists
-	out, err := cli.ContainerLogs(ctx, "f1064a8a4c82", options)
+	out, err := cli.ContainerLogs(ctx, "fd", options)
 	if err != nil {
 		panic(err)
 	}
